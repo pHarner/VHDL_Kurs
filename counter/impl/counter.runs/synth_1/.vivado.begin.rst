@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="embsys" Host="SERVICE-1SJ9R7O" Pid="4520">
+    </Process>
+</ProcessHandle>

@@ -9,10 +9,10 @@ z2
 cModel Technology
 Z0 dd:/work/design/counter/sim
 T_opt
-!s110 1538216810
-VI1fQRFFV8a04>f;7[c>R^3
-04 7 3 work counter rtl 1
-=1-4ccc6ae832cd-5baf5369-36c-1c64
+!s110 1538588241
+V;d86Gn_672MSbL:b0ZeJ93
+04 6 3 work tb_top sim 1
+=1-4ccc6ae832cd-5bb4fe51-35c-27d4
 o-quiet -auto_acc_if_foreign -work work
 n@_opt
 Z1 OE;O;10.4c;61
@@ -20,282 +20,292 @@ R0
 T_opt1
 !s110 1538217452
 VzhOZLDahb88GD4GidVYP63
-04 3 5 work top struc 1
+Z2 04 3 5 work top struc 1
 =1-4ccc6ae832cd-5baf55ec-63-1500
-o-quiet -auto_acc_if_foreign -work work +acc
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
 n@_opt1
 R1
-Pbasys3_util_pkg
-Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z4 w1536244172
 R0
-Z5 8../vhdl/basys3_util_pkg.vhd
-Z6 F../vhdl/basys3_util_pkg.vhd
+T_opt2
+!s110 1538585526
+V_bNj[fCmQKSV:Bo9<VAR92
+R2
+=1-4ccc6ae832cd-5bb4f3b6-35-80
+R3
+n@_opt2
+R1
+R0
+Pbasys3_util_pkg
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 w1538582374
+Z7 dd:/work/design/VHDL_Kurs/counter/sim
+Z8 8../vhdl/basys3_util_pkg.vhd
+Z9 F../vhdl/basys3_util_pkg.vhd
 l0
 L42
 V8O]6Gh6z_5;Uk]eo89ZSW2
 !s100 [QGYWoUz]j01XV?@Ij;0o0
-Z7 OE;C;10.4c;61
+Z10 OE;C;10.4c;61
 32
-Z8 !s110 1538217444
+Z11 !s110 1538592428
 !i10b 1
-Z9 !s108 1538217444.000000
-Z10 !s90 -reportprogress|300|../vhdl/basys3_util_pkg.vhd|
-Z11 !s107 ../vhdl/basys3_util_pkg.vhd|
+Z12 !s108 1538592428.000000
+Z13 !s90 -reportprogress|300|../vhdl/basys3_util_pkg.vhd|
+Z14 !s107 ../vhdl/basys3_util_pkg.vhd|
 !i113 0
-Z12 tExplicit 1
+Z15 tExplicit 1
 Bbody
-Z13 DPx4 work 15 basys3_util_pkg 0 22 8O]6Gh6z_5;Uk]eo89ZSW2
-R2
-R3
+Z16 DPx4 work 15 basys3_util_pkg 0 22 8O]6Gh6z_5;Uk]eo89ZSW2
+R4
+R5
 l0
 L51
 V4_m`IjlR7T6[5S_@zHZVV2
 !s100 7608b85SzTgIVV@e<b8iV2
-R7
-32
-R8
-!i10b 1
-R9
 R10
+32
 R11
-!i113 0
+!i10b 1
 R12
-Z14 nbody
+R13
+R14
+!i113 0
+R15
+Z17 nbody
 Ecounter
-Z15 w1536936316
-R2
-R3
-R0
+R6
+R4
+R5
+R7
 8../vhdl/counter_.vhd
 F../vhdl/counter_.vhd
 l0
 L42
 V0l^S6Ce]klE;jilmC=6hT3
 !s100 ac5f?:foR=BE0NeK=92UV0
-R7
+R10
 32
-R8
+R11
 !i10b 1
-R9
+R12
 !s90 -reportprogress|300|../vhdl/counter_.vhd|
 !s107 ../vhdl/counter_.vhd|
 !i113 0
-R12
+R15
 Artl
 DEx4 work 7 counter 0 22 0l^S6Ce]klE;jilmC=6hT3
-Z16 DPx4 work 16 counter_util_pkg 0 22 [5B8fJn9^QI1dZnTck4_P1
-Z17 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
-R2
-R3
+Z18 DPx4 work 16 counter_util_pkg 0 22 [5B8fJn9^QI1dZnTck4_P1
+Z19 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R4
+R5
 8../vhdl/counter_rtl.vhd
 F../vhdl/counter_rtl.vhd
 l60
 L45
 VzgTNfZ:GECC830;B[`aP22
 !s100 egVF:[HeH=7@UbcGB5mXE1
-R7
+R10
 32
-R8
+R11
 !i10b 1
-R9
+R12
 !s90 -reportprogress|300|../vhdl/counter_rtl.vhd|
 !s107 ../vhdl/counter_rtl.vhd|
 !i113 0
-R12
-Pcounter_comp_pkg
-R2
-R3
 R15
-R0
+Pcounter_comp_pkg
+R4
+R5
+R6
+R7
 8../vhdl/counter_comp_pkg.vhd
 F../vhdl/counter_comp_pkg.vhd
 l0
 L42
 V2ldS^Lz=mn<35`<A3DA^c1
 !s100 ZHjhaCmgbT2I5dE<n<;le3
-R7
+R10
 32
-R8
+R11
 !i10b 1
-R9
+R12
 !s90 -reportprogress|300|../vhdl/counter_comp_pkg.vhd|
 !s107 ../vhdl/counter_comp_pkg.vhd|
 !i113 0
-R12
+R15
 Pcounter_util_pkg
-R17
-R2
-R3
-Z18 w1537453649
-R0
-Z19 8../vhdl/counter_util_pkg.vhd
-Z20 F../vhdl/counter_util_pkg.vhd
+R19
+R4
+R5
+R6
+R7
+Z20 8../vhdl/counter_util_pkg.vhd
+Z21 F../vhdl/counter_util_pkg.vhd
 l0
 L43
 V[5B8fJn9^QI1dZnTck4_P1
 !s100 >1e5G;8n^SGmg2DY]b>KX0
-R7
+R10
 32
 b1
-R8
+R11
 !i10b 1
-R9
-Z21 !s90 -reportprogress|300|../vhdl/counter_util_pkg.vhd|
-Z22 !s107 ../vhdl/counter_util_pkg.vhd|
-!i113 0
 R12
+Z22 !s90 -reportprogress|300|../vhdl/counter_util_pkg.vhd|
+Z23 !s107 ../vhdl/counter_util_pkg.vhd|
+!i113 0
+R15
 Bbody
-R16
-R17
-R2
-R3
+R18
+R19
+R4
+R5
 l0
 L117
 VOS@9V5LSPaVIzEQ=>2LJW3
 !s100 _zTc3:^9J7O6CS2VJC?682
-R7
+R10
 32
-R8
+R11
 !i10b 1
-R9
-R21
-R22
-!i113 0
 R12
-R14
-Eio_ctrl
-w1536930697
+R22
+R23
+!i113 0
+R15
 R17
-R16
-R2
-R3
-R0
+Eio_ctrl
+R6
+R19
+R18
+R4
+R5
+R7
 8../vhdl/io_ctrl_.vhd
 F../vhdl/io_ctrl_.vhd
 l0
 L44
 Vh]c[3Nh1MMR7`EB0AX1@C3
 !s100 dJ[?j;`^lXAzO5]OBBiLS3
-R7
+R10
 32
-R8
+R11
 !i10b 1
-R9
+R12
 !s90 -reportprogress|300|../vhdl/io_ctrl_.vhd|
 !s107 ../vhdl/io_ctrl_.vhd|
 !i113 0
-R12
+R15
 Artl
-R18
 DEx4 work 7 io_ctrl 0 22 h]c[3Nh1MMR7`EB0AX1@C3
-Z23 DPx4 work 16 counter_comp_pkg 0 22 2ldS^Lz=mn<35`<A3DA^c1
-R16
-R17
-R2
-R3
+Z24 DPx4 work 16 counter_comp_pkg 0 22 2ldS^Lz=mn<35`<A3DA^c1
+R18
+R19
+R4
+R5
 8../vhdl/io_ctrl_rtl.vhd
 F../vhdl/io_ctrl_rtl.vhd
 l49
 L47
 VZ<k8=aj:9kmOSXlmj422b1
 !s100 Ag7kholT757mj]C_9kPoe1
-R7
+R10
 32
-R8
+R11
 !i10b 1
-R9
+R12
 !s90 -reportprogress|300|../vhdl/io_ctrl_rtl.vhd|
 !s107 ../vhdl/io_ctrl_rtl.vhd|
 !i113 0
-R12
+R15
 Etb_top
-Z24 w1536930749
+R6
+R18
 R16
-R13
-R17
-R2
-R3
-R0
+R19
+R4
+R5
+R7
 Z25 8../tb/tb_top_sim.vhd
 Z26 F../tb/tb_top_sim.vhd
 l0
 L31
 Vb]`<N9iYdBnPFnA:A15:M3
 !s100 dc8EjlNj>TccXI4JOz?l;3
-R7
+R10
 32
-Z27 !s110 1538217445
+R11
 !i10b 1
-Z28 !s108 1538217445.000000
-Z29 !s90 -reportprogress|300|../tb/tb_top_sim.vhd|
-Z30 !s107 ../tb/tb_top_sim.vhd|
-!i113 0
 R12
+Z27 !s90 -reportprogress|300|../tb/tb_top_sim.vhd|
+Z28 !s107 ../tb/tb_top_sim.vhd|
+!i113 0
+R15
 Asim
+R18
 R16
-R13
-R17
-R2
-R3
-DEx4 work 6 tb_top 0 22 b]`<N9iYdBnPFnA:A15:M3
+R19
+R4
+R5
+Z29 DEx4 work 6 tb_top 0 22 b]`<N9iYdBnPFnA:A15:M3
 l74
 L37
-Vo0YLccW8SM^3l8zk_n=IM0
-!s100 enBLo?SOS6?Y;cXMUc:mH1
-R7
+Z30 Vo0YLccW8SM^3l8zk_n=IM0
+Z31 !s100 enBLo?SOS6?Y;cXMUc:mH1
+R10
 32
-R27
+R11
 !i10b 1
-R28
-R29
-R30
-!i113 0
 R12
+R27
+R28
+!i113 0
+R15
 Etop
-Z31 w1538217426
-R13
-R2
-R3
-R0
+w1538588226
+R16
+R4
+R5
+R7
 8../vhdl/top_.vhd
 F../vhdl/top_.vhd
 l0
 L44
-VXJhVFJDUT>`[j?F]4[H663
-!s100 G44]n_5Z@i79DzNfD^RA^1
-R7
+VmC<cU3V<KNjU3^`^8LC;J0
+!s100 :eKkAgDPbOg2Ahl<R3Mm`1
+R10
 32
-R8
+R11
 !i10b 1
-R9
+R12
 !s90 -reportprogress|300|../vhdl/top_.vhd|
 !s107 ../vhdl/top_.vhd|
 !i113 0
-R12
+R15
 Astruc
-DEx4 work 3 top 0 22 XJhVFJDUT>`[j?F]4[H663
-R23
-R17
+w1538592421
+DEx4 work 3 top 0 22 mC<cU3V<KNjU3^`^8LC;J0
+R24
+R19
+R18
 R16
-R13
 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-R2
-R3
+R4
+R5
 8../vhdl/top_struc.vhd
 F../vhdl/top_struc.vhd
-l82
+l83
 L47
-Vo;`5KEP0Vegd72IRk7Qj^3
-!s100 Dk5MAl_VnclTi<8fA^_U93
-R7
+Vz_T@gnBX`MVOYd:4DRjHT2
+!s100 hGidmE@]IV`@=W=VH]gm;1
+R10
 32
-R27
+R11
 !i10b 1
-R28
+R12
 !s90 -reportprogress|300|../vhdl/top_struc.vhd|
 !s107 ../vhdl/top_struc.vhd|
 !i113 0
-R12
+R15

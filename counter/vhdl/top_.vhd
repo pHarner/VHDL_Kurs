@@ -52,7 +52,7 @@ entity top is
     G_CNT_SPEED_BIT_0_SW_ID : integer range 0 to 15 := 0;
     G_CNT_SPEED_BIT_1_SW_ID : integer range 0 to 15 := 1;
     G_CNT_SPEED_DIV_SIM     : integer := 1;
-    counter_size  :  INTEGER := 15
+    counter_size  :  INTEGER := 13
     );
   port (clk_i      : in  std_logic;
         reset_i    : in  std_logic;
